@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SeriaCommunication" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SeriaCommunication" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-std=gnu++11" />
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="../../../../../wxWidgets-3.1.4/lib/gcc_dll/mswud/wx" />
+					<Add directory="../../../git/wxPyhtonSerialCommunication/SerialCommunicaiton/descode" />
+					<Add directory="C:/wxWidgets-3.1.4/lib/gcc_dll/mswud" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.1.4/lib/gcc_dll/mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxbase31ud.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxbase31ud_net.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxbase31ud_xml.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxexpatd.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxjpegd.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_adv.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_aui.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_core.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_gl.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_html.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_media.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_propgrid.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_ribbon.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_richtext.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_stc.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_webview.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxmsw31ud_xrc.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxpngd.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxregexud.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxscintillad.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxtiffd.a" />
+					<Add library="../../../../../wxWidgets-3.1.4/lib/gcc_dll/libwxzlibd.a" />
+					<Add directory="C:/wxWidgets-3.1.4/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Wall" />
+			<Add directory="C:/wxWidgets-3.1.4/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.1.4/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+		</Linker>
+		<Unit filename="../../../git/wxPyhtonSerialCommunication/SerialCommunicaiton/descode/MainFrame.cpp" />
+		<Unit filename="../../../git/wxPyhtonSerialCommunication/SerialCommunicaiton/descode/MainFrame.h" />
+		<Unit filename="SeriaCommunicationApp.cpp" />
+		<Unit filename="SeriaCommunicationApp.h" />
+		<Unit filename="SeriaCommunicationMain.cpp" />
+		<Unit filename="SeriaCommunicationMain.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="4" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
