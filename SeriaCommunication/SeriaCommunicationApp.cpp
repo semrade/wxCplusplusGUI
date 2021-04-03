@@ -32,8 +32,11 @@ IMPLEMENT_APP(SeriaCommunicationApp);
 bool SeriaCommunicationApp::OnInit()
 {
     SeriaCommunicationFrame* frame = new SeriaCommunicationFrame(0L);
-    frame->SetIcon(wxICON(aaaa)); // To Set App Icon
+    frame->SetIcon(wxICON(aaaa));
     frame->Show();
 
     return true;
 }
+
+
+

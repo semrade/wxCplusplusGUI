@@ -9,11 +9,12 @@
 			<Target title="Debug">
 				<Option output="bin/Debug/SeriaCommunication" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
-				<Option type="0" />
+				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
 				<Option projectLinkerOptionsRelation="2" />
 				<Compiler>
-					<Add option="-std=gnu++11" />
+					<Add option="-std=c++14" />
 					<Add option="-g" />
 					<Add option="-D__WXDEBUG__" />
 					<Add directory="../../../../../wxWidgets-3.1.4/lib/gcc_dll/mswud/wx" />
@@ -72,9 +73,13 @@
 		<Unit filename="SeriaCommunicationApp.h" />
 		<Unit filename="SeriaCommunicationMain.cpp" />
 		<Unit filename="SeriaCommunicationMain.h" />
+		<Unit filename="Tserial.h" />
+		<Unit filename="Tserial_event.cpp" />
+		<Unit filename="Tserial_event.h" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
+		<Unit filename="tserial.cpp" />
 		<Extensions>
 			<DoxyBlocks>
 				<comment_style block="4" line="0" />

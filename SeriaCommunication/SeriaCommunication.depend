@@ -8,10 +8,10 @@
 
 1595442006 c:\wxwidgets-3.1.4\include\wx\msw\rcdefs.h
 
-1617101185 source:c:\users\starikuser\git\wxpyhtonserialcommunication\serialcommunicaiton\descode\mainframe.cpp
+1617477579 source:c:\users\starikuser\git\wxpyhtonserialcommunication\serialcommunicaiton\descode\mainframe.cpp
 	"MainFrame.h"
 
-1617101185 c:\users\starikuser\git\wxpyhtonserialcommunication\serialcommunicaiton\descode\mainframe.h
+1617477579 c:\users\starikuser\git\wxpyhtonserialcommunication\serialcommunicaiton\descode\mainframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/string.h>
@@ -2238,13 +2238,13 @@
 1595442006 c:\wxwidgets-3.1.4\include\wx\qt\frame.h
 	"wx/frame.h"
 
-1617101438 source:c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationapp.cpp
+1617477859 source:c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationapp.cpp
 	"wx_pch.h"
 	"SeriaCommunicationApp.h"
 	"SeriaCommunicationMain.h"
 	"MainFrame.h"
 
-1617054339 c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationapp.h
+1617305850 c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationapp.h
 	<wx/app.h>
 
 1595442006 c:\wxwidgets-3.1.4\include\wx\app.h
@@ -2327,10 +2327,11 @@
 1595442006 c:\wxwidgets-3.1.4\include\wx\univ\theme.h
 	"wx/string.h"
 
-1617101171 c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationmain.h
+1617477652 c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationmain.h
 	<wx/wx.h>
 	"SeriaCommunicationApp.h"
-	"../../../git/wxPyhtonSerialCommunication/SerialCommunicaiton/descode/MainFrame.h"
+	"MainFrame.h"
+	"Tserial.h"
 
 1595442006 c:\wxwidgets-3.1.4\include\wx\wx.h
 	"wx/defs.h"
@@ -2942,8 +2943,48 @@
 
 1595442006 c:\wxwidgets-3.1.4\include\wx\qt\mdi.h
 
-1617101424 source:c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationmain.cpp
+1617460725 source:c:\users\starikuser\documents\code_blocks\seriacommunication\seriacommunicationmain.cpp
 	"wx_pch.h"
 	"SeriaCommunicationMain.h"
 	"MainFrame.h"
+	"Tserial.h"
+	<list>
+
+1617355389 source:c:\users\starikuser\documents\code_blocks\seriacommunication\serial.cpp
+	<iostream>
+	"Serial.h"
+
+1617353637 c:\users\starikuser\documents\code_blocks\seriacommunication\serial.h
+	<string>
+	<windows.h>
+
+1617478134 source:c:\users\starikuser\documents\code_blocks\seriacommunication\tserial_event.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<process.h>
+	<conio.h>
+	<windows.h>
+	"Tserial_event.h"
+
+1617477807 c:\users\starikuser\documents\code_blocks\seriacommunication\tserial_event.h
+	<stdio.h>
+	<windows.h>
+
+1617478085 c:\users\starikuser\documents\code_blocks\seriacommunication\tserial.h
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<list>
+	<map>
+
+1617461967 source:c:\users\starikuser\documents\code_blocks\seriacommunication\tserial.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<process.h>
+	<conio.h>
+	<windows.h>
+	"Tserial.h"
 

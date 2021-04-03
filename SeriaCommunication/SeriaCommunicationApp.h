@@ -16,6 +16,8 @@ class SeriaCommunicationApp : public wxApp
 {
     public:
         virtual bool OnInit();
+
+
 };
 
 #endif // SERIACOMMUNICATIONAPP_H
