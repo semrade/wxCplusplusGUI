@@ -2,32 +2,27 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="..\..\..\git\wxPyhtonSerialCommunication\SerialCommunicaiton\descode\MainFrame.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\..\..\git\wxPyhtonSerialCommunication\SerialCommunicaiton\descode\MainFrame.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1614" topLine="86" />
+			<Cursor1 position="3888" topLine="48" />
 		</Cursor>
 	</File>
-	<File name="Tserial.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Tserial.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2289" topLine="50" />
+			<Cursor1 position="1754" topLine="25" />
 		</Cursor>
 	</File>
-	<File name="SeriaCommunicationMain.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="Tserial_event.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="567" topLine="13" />
+			<Cursor1 position="3523" topLine="15" />
 		</Cursor>
 	</File>
-	<File name="Tserial_event.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="SeriaCommunicationApp.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="19899" topLine="419" />
+			<Cursor1 position="751" topLine="4" />
 		</Cursor>
-		<Folding>
-			<Collapse line="425" />
-			<Collapse line="466" />
-			<Collapse line="542" />
-		</Folding>
 	</File>
-	<File name="tserial.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="tserial.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="446" topLine="0" />
 		</Cursor>
@@ -38,32 +33,34 @@
 			<Collapse line="195" />
 		</Folding>
 	</File>
+	<File name="SeriaCommunicationMain.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4709" topLine="184" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\git\wxPyhtonSerialCommunication\SerialCommunicaiton\descode\MainFrame.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1614" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="Tserial_event.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19899" topLine="406" />
+		</Cursor>
+		<Folding>
+			<Collapse line="419" />
+			<Collapse line="446" />
+			<Collapse line="463" />
+		</Folding>
+	</File>
 	<File name="SeriaCommunicationApp.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="492" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Tserial_event.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="SeriaCommunicationMain.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6065" topLine="15" />
-		</Cursor>
-		<Folding>
-			<Collapse line="106" />
-		</Folding>
-	</File>
-	<File name="..\..\..\git\wxPyhtonSerialCommunication\SerialCommunicaiton\descode\MainFrame.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3888" topLine="48" />
-		</Cursor>
-	</File>
-	<File name="SeriaCommunicationMain.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4709" topLine="184" />
-		</Cursor>
-	</File>
-	<File name="SeriaCommunicationApp.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="751" topLine="4" />
+			<Cursor1 position="567" topLine="13" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
